@@ -1,6 +1,6 @@
 # 🔺 ChatDB
 
-**ChatDB** is a natural language interface for SQL and MongoDB databases. Ask questions like "List all hospitals in California" or "Add a new refugee case", and ChatDB figures out the right query for you and executes it in your local DBs.
+**ChatDB**  is an intelligent, schema-aware natural language interface (NLI) that supports both relational (PostgreSQL) and document-based (MongoDB) databases. Built using LangChain, OpenAI and Streamlit, it allows users to interact with real databases using plain English—for querying, updating, inserting, and deleting data.
 
 USC DSCI 551 – Spring 2025
 
@@ -9,11 +9,11 @@ USC DSCI 551 – Spring 2025
 ## ✨ Features
 
 - 🔎 **Explore schemas and collections**
-- 🤖 **Natural language queries** → SQL / Mongo
-- 🛠️ **Insert, update, delete** across databases
+- 🤖 **Natural language executable queries** → SQL / Mongo
+- 🛠️ **Database Manipulation - Insert, update, delete** across databases
 - 🔄 **Cascade-aware modifications**
 - 💬 **Streamlit-based chatbot UI**
-- 🧠 Powered by **LangChain** + **OpenAI** 
+- 🧠 LLM-Powered Engine **LangChain** + **OpenAI** 
 
 ---
 
@@ -53,6 +53,13 @@ Create a `.env` file in the root directory based on the `.env.template` file. Fi
 You might need to get API keys from OpenAI and Langsmith if you want to use them.
 
 ### 3. Prepare the DBs. 
+
+### Data 
+- Healthcare Database (Public healthcare datasetes adapted from Kagle)
+- Tables: Hospitals, doctors, patients, admissions
+- Refugees Database (Synthetic data generated using CHATGPT)
+- Collections: refugee_cases, refugee_exams, nested_psychosocial_assessment_data
+
 
 #### **PostgreSQL**
 - Create a database named `healthcare`
@@ -100,36 +107,48 @@ Type your queries in the input box and hit enter to see the results.
 ## Example Queries
 - List all available databases.
 - What tables are in the healthcare database?
-- Show me the schema for the admissions table in healthcare.
-- Give me a sample of the refugee_exams collection.
-- Show all hospitals.
-- Find all doctors working at hospital_id 3.
-- Get names of all patients over age 60.
+- Show me the schema for the patients table.
+- Show a few rows from the admissions table.
+- What collections are in the refugees database?
+- What fields are in the refugee_cases collection?
+- Show me the structure of the refugee_exams documents.
+- Give me a sample document from refugee_exams.
+- Show one refugee case record.
+- Show 5 patients from the patients table.
+- List all patients over age 60.
+- Find all hospitals named “Cook PLC”.
+- Show hospitals with average billing above $20,000 in 2024.
+- Show admissions for patient ID 1.
+- Show the average billing amount by hospital in 2024.
+- What are the top 5 most expensive admissions?
+- Get 10 doctors but skip the first 5.
 - List patient names and hospital names for all admissions.
-- Show total billing_amount by hospital in 2024.
-- Show me refugee cases where support_services is missing.
-- Find all refugee cases joined with exams.
-- Add a new hospital called 'Sunrise Hospital'.
-- Add a new doctor Dr. Green to hospital 2.
-- Add a refugee case with applicant 'Ali', status 'pending'.
-- Add a refugee case and also the required exams in refugee_exams.
-- Add patient but forget age.
-- Update hospital 1 name to 'New Hope'.
-- Change blood_type to 'AB+' for patient 4.
-- Update refugee case 101 status to approved and related exams required - field.
-- Update hospital name without giving ID.
-- Delete hospital with id 3.
-- Delete patient named John Doe.
-- Delete refugee case with case_id 999.
-- Delete refugee case and all related exams.
-- Delete admissions but forgot to give condition.
+- Show the doctor name and their hospital for each admission.
+- Give me a query that joins doctor name and patient name using the admissions table.
+- Add a patient named Carlos, age 45, with blood type O+.
+- Add a new hospital called New Life Medical.
+- Add a refugee case with applicant 'Ali' and status 'pending'.
+- Add the required exams for case ID 101.
+- Update hospital 1’s name to “Hope Hospital”.
+- Change Carlos’s age to 46.
+- Update Ali’s age to 30 in the applicant data.
+- Change the status of refugee case 999 to “approved”.
+- Add more exams to refugee case 999.
+- Delete the hospital with ID 3.
+- Remove the patient named John Doe.
+- Delete refugee case with ID 999.
+- Delete refugee case 999 and all its related exams.
+- Show refugee cases along with their required exams.
+- Count how many refugee cases are in each status.
+- Show the 5 refugee cases with the most support services.
+- Show refugee cases that have no support services listed.
 
 ## 🧠 Architecture Overview
 - LangChain: Prompt + tool orchestration
-- OpenAI : LLM for reasoning and generation
-- SQLAlchemy / PyMongo: DB execution layer
+- OpenAI : LLM for reasoning and generation. 
+- SQLAlchemy / PyMongo: DB execution layer - Connect to the the databases
 - Streamlit: Frontend chat interface
-- LangSmith: Tracing and debugging
+- LangSmith: Tracing and debugging. 
 
 ## 📦 Folder Structure
 ```
@@ -145,6 +164,19 @@ chatdb/
 └── README.md
 ```
 
-### 👩‍💻 Authors
+### 👩‍💻 Author
 - Gleice Chaves
+
+### 6. References 
+
+https://python.langchain.com/docs/concepts/lcel/ - LCEL
+https://platform.openai.com/docs/guides/rate-limits - OpenAi Rate Limits
+https://python.langchain.com/docs/concepts/lcel/
+https://www.marktechpost.com/2025/04/15/from-logic-to-confusion-mit-researchers-show-how-simple-prompt-tweaks-derail-llm-reasoning/ - Study Prompt Sensitivity 
+https://www.udemy.com/course/langchain/?couponCode=LEARNNOWPLANS - Practical Video course to understand LangChain basics, agents, tools and RAG
+https://www.promptingguide.ai/ - Best Pratices for designing effective prompts 
+https://python.langchain.com/docs/introduction/ - Langchain Documentation
+https://docs.smith.langchain.com/ - LangSmith Documentation
+https://medium.com/@eugenesh4work/what-are-embeddings-and-how-do-it-work-b35af573b59e - Explanation of vector embbeddings 
+
 
