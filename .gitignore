@@ -167,5 +167,21 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Ruff stuff:
+.ruff_cache/
+
 # PyPI configuration file
 .pypirc
+trail.py
+WORKING_trail2.py
+docs/
+.streamlit/
+Btrail2_backup.py
+.env
+551/
+global_db_state.json
+Minimum_Viable_Prompt_Coverage.csv
+Test_Cases_for_ChatDB_w_results.csv
+global_db_state.json
+graph.py
+Test_Cases_for_ChatDB.csv

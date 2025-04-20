@@ -1,0 +1,1010 @@
+[
+    {
+        "case_id": "I12587",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-07-21",
+            "counseling_sessions": 3,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I76362",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-04-20",
+            "counseling_sessions": 10,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I78303",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-08-27",
+            "counseling_sessions": 1,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I90191",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-06-14",
+            "counseling_sessions": 8,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I54787",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2025-01-05",
+            "counseling_sessions": 9,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I83033",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-03-20",
+            "counseling_sessions": 7,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I32952",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2025-03-06",
+            "counseling_sessions": 4,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I71343",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-05-26",
+            "counseling_sessions": 4,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I18922",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2025-02-25",
+            "counseling_sessions": 9,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I85076",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-03-22",
+            "counseling_sessions": 12,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I45091",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-08-12",
+            "counseling_sessions": 3,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I87778",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-06-06",
+            "counseling_sessions": 2,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I60005",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-08-10",
+            "counseling_sessions": 3,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I78852",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-10-06",
+            "counseling_sessions": 1,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I30346",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-07-17",
+            "counseling_sessions": 14,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I88335",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-08-14",
+            "counseling_sessions": 7,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I53262",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-03-27",
+            "counseling_sessions": 13,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I57897",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-05-18",
+            "counseling_sessions": 11,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I42034",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-05-26",
+            "counseling_sessions": 1,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I90113",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-03-28",
+            "counseling_sessions": 8,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I36181",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-05-03",
+            "counseling_sessions": 11,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I68039",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-12-27",
+            "counseling_sessions": 4,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I48591",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-12-06",
+            "counseling_sessions": 1,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I23605",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2025-02-13",
+            "counseling_sessions": 15,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I99451",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-05-29",
+            "counseling_sessions": 14,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I72324",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-07-16",
+            "counseling_sessions": 2,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I67287",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-09-29",
+            "counseling_sessions": 6,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I52492",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-08-07",
+            "counseling_sessions": 13,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I89555",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-03-20",
+            "counseling_sessions": 12,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I74848",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2025-03-06",
+            "counseling_sessions": 14,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I73287",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-06-06",
+            "counseling_sessions": 10,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I84190",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2025-02-01",
+            "counseling_sessions": 2,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I21919",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-05-26",
+            "counseling_sessions": 1,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I94535",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-08-06",
+            "counseling_sessions": 0,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I82404",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-11-29",
+            "counseling_sessions": 0,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I89745",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-08-06",
+            "counseling_sessions": 13,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I25764",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2025-03-03",
+            "counseling_sessions": 13,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I91562",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-06-12",
+            "counseling_sessions": 2,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I18653",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-03-21",
+            "counseling_sessions": 3,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I37529",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-05-22",
+            "counseling_sessions": 4,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I48274",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-11-07",
+            "counseling_sessions": 11,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I68250",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-07-27",
+            "counseling_sessions": 11,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I95193",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2025-02-27",
+            "counseling_sessions": 8,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I68932",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-09-16",
+            "counseling_sessions": 10,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I83529",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2025-01-10",
+            "counseling_sessions": 13,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I48520",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-12-27",
+            "counseling_sessions": 15,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I72519",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-04-30",
+            "counseling_sessions": 8,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I40111",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-03-14",
+            "counseling_sessions": 14,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I56274",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-07-02",
+            "counseling_sessions": 10,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I42187",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-12-13",
+            "counseling_sessions": 12,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I63827",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-11-05",
+            "counseling_sessions": 7,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I85974",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2025-03-05",
+            "counseling_sessions": 9,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I16793",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-10-20",
+            "counseling_sessions": 5,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I13925",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-04-28",
+            "counseling_sessions": 13,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I31159",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-07-08",
+            "counseling_sessions": 10,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I72352",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-05-30",
+            "counseling_sessions": 13,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I94039",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-09-30",
+            "counseling_sessions": 0,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I13608",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-04-30",
+            "counseling_sessions": 9,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I45824",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-04-19",
+            "counseling_sessions": 1,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I83791",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-05-24",
+            "counseling_sessions": 12,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I43269",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-05-28",
+            "counseling_sessions": 5,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I52194",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-05-23",
+            "counseling_sessions": 1,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I28950",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-03-09",
+            "counseling_sessions": 15,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I73241",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2025-01-07",
+            "counseling_sessions": 14,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I54129",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-07-09",
+            "counseling_sessions": 7,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I61485",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-04-22",
+            "counseling_sessions": 13,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I30327",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2025-02-23",
+            "counseling_sessions": 0,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I47623",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-12-27",
+            "counseling_sessions": 12,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I29485",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2025-01-18",
+            "counseling_sessions": 1,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I81237",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2025-02-06",
+            "counseling_sessions": 7,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I14792",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-09-13",
+            "counseling_sessions": 13,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I49361",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-07-06",
+            "counseling_sessions": 7,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I28450",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-07-21",
+            "counseling_sessions": 9,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I97180",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-10-03",
+            "counseling_sessions": 14,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I24891",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-07-05",
+            "counseling_sessions": 7,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I89256",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-10-24",
+            "counseling_sessions": 15,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I23891",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2025-01-06",
+            "counseling_sessions": 0,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I62347",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-10-08",
+            "counseling_sessions": 4,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I33513",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2025-01-12",
+            "counseling_sessions": 12,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I79162",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-03-10",
+            "counseling_sessions": 7,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I25893",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-11-08",
+            "counseling_sessions": 8,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I57862",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-03-30",
+            "counseling_sessions": 13,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I83925",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-05-07",
+            "counseling_sessions": 9,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I72538",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-12-20",
+            "counseling_sessions": 0,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I76251",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-08-31",
+            "counseling_sessions": 15,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I46377",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-05-29",
+            "counseling_sessions": 15,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I93142",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2025-02-26",
+            "counseling_sessions": 9,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I31568",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-12-21",
+            "counseling_sessions": 15,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I60191",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-05-30",
+            "counseling_sessions": 6,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I73208",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-09-27",
+            "counseling_sessions": 12,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I80115",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-05-26",
+            "counseling_sessions": 13,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I91836",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-12-08",
+            "counseling_sessions": 7,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I23281",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-09-01",
+            "counseling_sessions": 3,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I76094",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-09-23",
+            "counseling_sessions": 3,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I82199",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-10-17",
+            "counseling_sessions": 14,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I69763",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-03-28",
+            "counseling_sessions": 6,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I14739",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-05-19",
+            "counseling_sessions": 2,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I42680",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-11-19",
+            "counseling_sessions": 5,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I83072",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2025-02-13",
+            "counseling_sessions": 14,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I45793",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-05-23",
+            "counseling_sessions": 12,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I75196",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2025-01-08",
+            "counseling_sessions": 12,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I54172",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-11-22",
+            "counseling_sessions": 4,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I27914",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-05-24",
+            "counseling_sessions": 10,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I67489",
+        "psychosocial_assessment": {
+            "mental_health_status": "Critical",
+            "psychological_assessment_date": "2024-12-30",
+            "counseling_sessions": 10,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I53710",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2025-02-15",
+            "counseling_sessions": 2,
+            "trauma_history": "Severe"
+        }
+    },
+    {
+        "case_id": "I72956",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-10-25",
+            "counseling_sessions": 13,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I81036",
+        "psychosocial_assessment": {
+            "mental_health_status": "Stable",
+            "psychological_assessment_date": "2024-04-16",
+            "counseling_sessions": 7,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I61805",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2024-12-05",
+            "counseling_sessions": 14,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I92815",
+        "psychosocial_assessment": {
+            "mental_health_status": "At Risk",
+            "psychological_assessment_date": "2025-01-24",
+            "counseling_sessions": 3,
+            "trauma_history": "Moderate"
+        }
+    },
+    {
+        "case_id": "I34618",
+        "psychosocial_assessment": {
+            "mental_health_status": "Severe",
+            "psychological_assessment_date": "2024-06-08",
+            "counseling_sessions": 12,
+            "trauma_history": "None"
+        }
+    },
+    {
+        "case_id": "I96293",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-11-03",
+            "counseling_sessions": 10,
+            "trauma_history": "Mild"
+        }
+    },
+    {
+        "case_id": "I78205",
+        "psychosocial_assessment": {
+            "mental_health_status": "Recovering",
+            "psychological_assessment_date": "2024-06-29",
+            "counseling_sessions": 13,
+            "trauma_history": "Moderate"
+        }
+    }
+]
