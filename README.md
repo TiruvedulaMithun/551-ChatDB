@@ -171,7 +171,6 @@ chatdb/
 
 https://python.langchain.com/docs/concepts/lcel/ - LCEL
 https://platform.openai.com/docs/guides/rate-limits - OpenAi Rate Limits
-https://python.langchain.com/docs/concepts/lcel/
 https://www.marktechpost.com/2025/04/15/from-logic-to-confusion-mit-researchers-show-how-simple-prompt-tweaks-derail-llm-reasoning/ - Study Prompt Sensitivity 
 https://www.udemy.com/course/langchain/?couponCode=LEARNNOWPLANS - Practical Video course to understand LangChain basics, agents, tools and RAG
 https://www.promptingguide.ai/ - Best Pratices for designing effective prompts 
