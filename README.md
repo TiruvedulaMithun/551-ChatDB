@@ -55,7 +55,7 @@ You might need to get API keys from OpenAI and Langsmith if you want to use them
 ### 3. Prepare the DBs. 
 
 ### Data 
-- Healthcare Database (Public healthcare datasetes adapted from Kagle)
+- Healthcare Database (Public healthcare datasets adapted from Kagle)
 - Tables: Hospitals, doctors, patients, admissions
 - Refugees Database (Synthetic data generated using CHATGPT)
 - Collections: refugee_cases, refugee_exams, nested_psychosocial_assessment_data
