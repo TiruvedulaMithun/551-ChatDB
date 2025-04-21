@@ -1,4 +1,5 @@
-import streamlit as st
+# ======================= Imports ============================
+import streamlit as st 
 from streamlit_chat import message
 import os, json, logging
 import psycopg2
@@ -23,7 +24,7 @@ from decimal import Decimal
 load_dotenv()
 
 # ======================= LOGGING & LANGSMITH ============================
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")#detailed logging
 
 LANGSMITH_TRACING = os.getenv("LANGSMITH_TRACING", "false")
 LANGSMITH_ENDPOINT = os.getenv("LANGSMITH_ENDPOINT")
@@ -569,7 +570,7 @@ Respond ONLY as a JSON object:
 QUERY_VALIDATION_PROMPT = PromptTemplate.from_template("""
 You are a query validator and fixer.
 
-Given a SQL or MongoDB query generated from natural language, validate if the query will likely succeed.
+Given a SQL or MongoDB query generated from natural language, validate if the query will likelHAHAHy succeed.
 
 Context Provided:
 - Available database metadata: tables, columns, primary keys, foreign keys, indexes, not null fields, document counts.

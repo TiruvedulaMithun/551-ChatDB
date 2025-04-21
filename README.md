@@ -6,7 +6,7 @@ USC DSCI 551 – Spring 2025
 
 ---
 
-## ✨ Features
+##  Features
 
 - 🔎 **Explore schemas and collections**
 - 🤖 **Natural language executable queries** → SQL / Mongo
@@ -123,7 +123,7 @@ Type your queries in the input box and hit enter to see the results.
 - What are the top 5 most expensive admissions?
 - Get 10 doctors but skip the first 5.
 - List patient names and hospital names for all admissions.
-- Show the doctor name and their hospital for each admission.
+- Show the doctor name and their hospital for each admission. 
 - Give me a query that joins doctor name and patient name using the admissions table.
 - Add a patient named Carlos, age 45, with blood type O+.
 - Add a new hospital called New Life Medical.
@@ -143,14 +143,14 @@ Type your queries in the input box and hit enter to see the results.
 - Show the 5 refugee cases with the most support services.
 - Show refugee cases that have no support services listed.
 
-## 🧠 Architecture Overview
+## Architecture Overview
 - LangChain: Prompt + tool orchestration
 - OpenAI : LLM for reasoning and generation. 
 - SQLAlchemy / PyMongo: DB execution layer - Connect to the the databases
 - Streamlit: Frontend chat interface
 - LangSmith: Tracing and debugging. 
 
-## 📦 Folder Structure
+## Folder Structure
 ```
 chatdb/
 │
