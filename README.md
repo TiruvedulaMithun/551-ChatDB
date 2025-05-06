@@ -128,12 +128,13 @@ Type your queries in the input box and hit enter to see the results.
 - Add a patient named Carlos, age 45, with blood type O+.
 - Add a new hospital called New Life Medical.
 - Add a refugee case with applicant 'Ali' and status 'pending'.
-- Add the required exams for case ID 101.
+- Add the required exams : blood test and rm for case id 101
 - Update hospital 1’s name to “Hope Hospital”.
 - Change Carlos’s age to 46.
 - Update Ali’s age to 30 in the applicant data.
-- Change the status of refugee case 999 to “approved”.
+- Change the status of refugee case 999 to “approved”. 
 - Add more exams to refugee case 999.
+- show me case id I78303
 - Delete the hospital with ID 3.
 - Remove the patient named John Doe.
 - Delete refugee case with ID 999.
