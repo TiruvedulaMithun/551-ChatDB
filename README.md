@@ -186,4 +186,6 @@ https://docs.smith.langchain.com/ - LangSmith Documentation
 
 https://medium.com/@eugenesh4work/what-are-embeddings-and-how-do-it-work-b35af573b59e - Explanation of vector embbeddings 
 
+https://python.langchain.com/v0.1/docs/modules/model_io/output_parsers/ - Output Parser
 
+https://www.youtube.com/watch?v=qFGdygmYgto - Langchain Tutorial 
