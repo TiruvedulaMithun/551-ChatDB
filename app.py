@@ -1,8 +1,6 @@
 # ======================= Imports ============================
-# ⬆️ Add near your imports
 import base64
 import uuid
-from datetime import time, timedelta  # if not already imported
 import streamlit as st 
 from streamlit_chat import message
 import os, json, logging
@@ -22,7 +20,7 @@ import re
 from dotenv import load_dotenv
 import pandas as pd
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, time
 from decimal import Decimal
 
 load_dotenv()
@@ -65,8 +63,7 @@ if(IS_MONGO_AUTH):
 else:
     MONGO_URI = f"mongodb://{MONGO_HOST}:{MONGO_PORT}/"
 
-DBS_TO_IGNORE = ["postgres", "admin", "config", "local", POSTGRES_USER, "LIAMU", "configuration", "global", "notifications", "qrmanager", "ride", "spaceshare", "store", "userDetails", "synapse" ]
-# DBS_TO_IGNORE = ["postgres", "admin", "config", "local", POSTGRES_USER]
+DBS_TO_IGNORE = ["postgres", "admin", "config", "local", POSTGRES_USER]
     
 # ======================= GLOBAL DB STATE ============================
 def load_global_state():
