@@ -1,5 +1,5 @@
 pm2 start --name chatdb \
-  /home/mithun/apps/551-ChatDB/.venv/bin/python -- \
+  /home/$user/apps/551-ChatDB/.venv/bin/python -- \
   -m streamlit run app.py \
   --server.port=8501 \
   --server.address=0.0.0.0 \
