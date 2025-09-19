@@ -1,4 +1,8 @@
 # ======================= Imports ============================
+# ⬆️ Add near your imports
+import base64
+import uuid
+from datetime import time, timedelta  # if not already imported
 import streamlit as st 
 from streamlit_chat import message
 import os, json, logging
@@ -61,7 +65,8 @@ if(IS_MONGO_AUTH):
 else:
     MONGO_URI = f"mongodb://{MONGO_HOST}:{MONGO_PORT}/"
 
-DBS_TO_IGNORE = ["postgres", "admin", "config", "local", POSTGRES_USER]
+DBS_TO_IGNORE = ["postgres", "admin", "config", "local", POSTGRES_USER, "LIAMU", "configuration", "global", "notifications", "qrmanager", "ride", "spaceshare", "store", "userDetails", "synapse" ]
+# DBS_TO_IGNORE = ["postgres", "admin", "config", "local", POSTGRES_USER]
     
 # ======================= GLOBAL DB STATE ============================
 def load_global_state():
@@ -70,9 +75,42 @@ def load_global_state():
     with open(GLOBAL_STATE_FILE, "r") as f:
         return json.load(f)
 
+def safe_jsonify(obj):
+    # Dates & times
+    if isinstance(obj, (datetime, date, time)):
+        return obj.isoformat()
+    if isinstance(obj, timedelta):
+        return obj.total_seconds()
+
+    # Numerics
+    if isinstance(obj, Decimal):
+        return float(obj)
+
+    # IDs / misc
+    if isinstance(obj, uuid.UUID):
+        return str(obj)
+
+    # Binary-ish
+    if isinstance(obj, (bytes, bytearray, memoryview)):
+        b = bytes(obj)  # handles memoryview/bytearray too
+        try:
+            # Try utf-8 text first
+            return b.decode("utf-8")
+        except UnicodeDecodeError:
+            # Fall back to base64 string so JSON is valid and readable if needed
+            return "base64:" + base64.b64encode(b).decode("ascii")
+
+    # Sets/tuples (occasionally show up in metadata)
+    if isinstance(obj, (set, tuple)):
+        return list(obj)
+
+    # Last resort: stringify unknown types
+    return str(obj)
+
+
 def save_global_state(state):
     with open(GLOBAL_STATE_FILE, "w") as f:
-        json.dump(state, f, indent=2)
+        json.dump(state, f, indent=2, default=safe_jsonify)
 
 def safe_jsonify(obj):
     if isinstance(obj, (datetime, date)):
